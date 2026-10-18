@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NormalInvitation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.0</Version>
+  <Workshop>
+    <ID>yg.ruinanet</ID>
+    <Title>RuinaNet 双人联机（v1.0 测试版）</Title>
+    <Description>纯 AI 制作，含人量为零。
+双人联机实验模组：Steam 好友房间与 IP/UDP 直连。v1.0 / R48，双方需同版本。
+Steam 功能尚待两台电脑、两个 Steam 账号实测。
+联机交流与问题反馈 QQ 群：1130976144。
+源码：https://github.com/tlmrt/RuinaNet
+普通接待与普通异想体首次挑战、重战已接入；楼层解放战暂不支持。
+完整说明请阅读仓库 README。</Description>
+    <Tag>Invitation</Tag>
+    <PreviewImage></PreviewImage>
+  </Workshop>
+  <InvitationFile>
+    <Stage Exist="false" />
+    <EnemyUnit Exist="false" />
+    <EquipPage_Enemy Exist="false" />
+    <EquipPage_Librarian Exist="false" />
+    <DropBook Exist="false" />
+    <CardDropTable Exist="false" />
+    <CardInfo Exist="false" />
+    <Deck Exist="false" />
+    <Dialog Exist="false" />
+    <BookDesc Exist="false" />
+    <Passive Exist="false" />
+  </InvitationFile>
+</NormalInvitation>

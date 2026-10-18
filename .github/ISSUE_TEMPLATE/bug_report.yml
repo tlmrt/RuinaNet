@@ -1,0 +1,30 @@
+name: 问题反馈
+description: 联机失败、不同步或界面异常
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 双方模组版本、主机或客机
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 关卡、楼层和复现步骤
+      description: 请同时说明预期与实际表现，以及其他模组。
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: 连接方式
+      options:
+        - Steam 好友联机（两个账号）
+        - 同机双开 UDP
+        - 局域网 UDP
+        - 跨网络 UDP
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图与两端日志
+      description: 分享前检查个人信息；不需要存档、密码或验证码。也可到 QQ 群 1130976144 反馈。

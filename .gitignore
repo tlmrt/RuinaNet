@@ -1,0 +1,15 @@
+/build/
+/lib/
+/artifacts/
+/packages/
+*.dll
+*.exe
+*.pdb
+*.log
+*.ini
+*.bak
+*.zip
+.vs/
+.idea/
+.env
+.env.*

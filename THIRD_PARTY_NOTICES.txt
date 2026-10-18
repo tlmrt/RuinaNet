@@ -1,0 +1,23 @@
+Third-party components distributed with this package
+
+0Harmony.dll: HarmonyX 2.9.0.0
+Project: https://github.com/BepInEx/HarmonyX
+License: MIT, see LICENSES/HarmonyX.txt
+Upstream Harmony: https://github.com/pardeike/Harmony
+Upstream license: MIT, see LICENSES/Harmony.txt
+
+MonoMod.RuntimeDetour.dll and MonoMod.Utils.dll: 22.1.29.1
+Project: https://github.com/MonoMod/MonoMod
+License: MIT, see LICENSES/MonoMod.txt
+
+Mono.Cecil.dll: 0.10.4.0
+Project: https://github.com/jbevain/cecil
+License: MIT, see LICENSES/Mono.Cecil.txt
+
+License source references:
+https://raw.githubusercontent.com/BepInEx/HarmonyX/v2.9.0/LICENSE
+https://raw.githubusercontent.com/pardeike/Harmony/master/LICENSE
+https://raw.githubusercontent.com/MonoMod/MonoMod/master/LICENSE
+https://raw.githubusercontent.com/jbevain/cecil/0.10.4/LICENSE.txt
+
+Game and Unity assemblies are not included in this package.
