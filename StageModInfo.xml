@@ -4,13 +4,48 @@
   <Workshop>
     <ID>yg.ruinanet</ID>
     <Title>RuinaNet 双人联机（v1.0 测试版）</Title>
-    <Description>纯 AI 制作，含人量为零。
-双人联机实验模组：Steam 好友房间与 IP/UDP 直连。v1.0 / R48，双方需同版本。
-Steam 功能尚待两台电脑、两个 Steam 账号实测。
-联机交流与问题反馈 QQ 群：1130976144。
-源码：https://github.com/tlmrt/RuinaNet
-普通接待与普通异想体首次挑战、重战已接入；楼层解放战暂不支持。
-完整说明请阅读仓库 README。</Description>
+    <Description>RuinaNet v1.0 — Experimental 2-player co-op / 双人联机测试版
+
+纯 AI 制作，含人量为零。
+Made entirely by AI, with zero human-made content.
+전부 AI로 제작되었으며, 사람이 직접 제작한 부분은 없습니다.
+すべてAIで制作されており、人が直接制作した部分はありません。
+
+GitHub / 源码 / 소스 / ソース（MIT）：https://github.com/tlmrt/RuinaNet
+Issues / 问题反馈 / 버그 제보 / 不具合報告：https://github.com/tlmrt/RuinaNet/issues
+QQ 联机交流与反馈群 / community group：1130976144
+
+【中文】
+与一位朋友共同接待，分别控制司书。双方须同为 v1.0 / R48，并使用兼容的书页与模组资源。
+带 MOD 启动 → 邀请函界面左上“联机接待”。Steam：房主“创建 Steam 房间”→“邀请 Steam 好友”；客机在游戏运行中接受邀请后点击“加入 Steam”，也可手动输入房间编号。UDP：房主“创建接待室”，客机输入可达的 IP:端口；默认 UDP 27015，跨网络需自行配置穿透或虚拟局域网。
+已接入普通接待、配装与司书分工、出牌/手牌/速度骰/拼点/战斗状态同步、共享 E.G.O 协调，以及普通异想体首次挑战与重战的独立准备。情感/异想体书页目前由房主选择。
+仅双人；不支持中途加入、断线续战、房主迁移、完整存档或剧情进度共享。楼层解放战、Keter 最终战暂不支持。
+测试招募：712 项自动检查通过，但尚未完成两台电脑、两个 Steam 账号的真实网络验收，不保证所有机制稳定。欢迎测试与反馈；Steam 失败可切回 UDP。请附双方版本、主客机、关卡/楼层、步骤、截图和两端日志，分享前检查个人信息。
+
+【English】
+Play the same reception with a friend, controlling separate librarians. Both players need v1.0/R48 and compatible page/mod resources.
+Launch with mods enabled → Invitation screen → top-left “联机接待”. Steam: host “创建 Steam 房间” → “邀请 Steam 好友”; guest accepts while the game is running, then clicks “加入 Steam”. A room number can also be entered manually. UDP: host “创建接待室”; guest enters a reachable IP:port. Default UDP 27015; Internet play needs a working tunnel, virtual LAN or port forwarding.
+Ordinary receptions, equipment/ownership, cards, hands, Speed Dice, clashes, battle state and shared E.G.O use are coordinated. Ordinary Abnormality first attempts/rematches have separate co-op preparation. The host selects Emotion/Abnormality pages.
+Two players only. No mid-battle joining, battle reconnection, host migration, full save/story sharing, Floor Realizations or final Keter battle.
+TESTERS WELCOME: 712 automated checks passed; real two-PC/two-account Steam networking is not fully verified. Bugs and desyncs may remain. If Steam fails, try UDP. Report both versions, roles, reception/floor, steps, screenshots and both logs; remove personal information first. Documentation is translated; the mod UI remains mainly Chinese.
+
+【한국어】
+친구와 같은 접대에서 각자 사서를 조작하는 2인 협동 모드입니다. 양쪽 모두 v1.0/R48과 호환되는 책장·모드 리소스를 사용하세요.
+MOD 활성화 실행 → 초대장 화면 왼쪽 위 “联机接待”. Steam: 호스트 “创建 Steam 房间” → “邀请 Steam 好友”. 게스트는 게임 실행 중 초대를 수락한 뒤 “加入 Steam”을 누릅니다. 방 번호를 직접 입력해도 됩니다. UDP: 호스트 “创建接待室”, 게스트는 접속 가능한 IP:포트를 입력합니다. 기본 UDP 27015이며 외부 접속에는 터널·가상 LAN 등의 설정이 필요합니다.
+일반 접대, 책장 설정과 사서 분담, 손패·속도 주사위·합·전투 상태 및 E.G.O 공동 사용을 조율합니다. 일반 환상체 최초 도전·재도전은 전용 준비 창을 사용하며, 감정·환상체 책장은 호스트가 선택합니다.
+2인 전용입니다. 전투 중 참가·재접속, 호스트 이전, 전체 세이브·스토리 진행 공유, 층 완전 개방전과 케테르 최종전은 미지원입니다.
+테스터를 모집합니다. 자동 검사 712개는 통과했지만 PC 두 대·Steam 계정 두 개의 실통신 검증은 미완료이며 동기화 문제가 남을 수 있습니다. Steam 실패 시 UDP를 시도하세요. 양쪽 버전·역할·접대/층·재현 순서·이미지·양쪽 로그를 제보해 주세요. 로그의 개인정보를 확인하세요. 설명만 번역되었으며 MOD UI는 주로 중국어입니다.
+
+【日本語】
+友人と同じ接待で、それぞれ司書を操作する2人協力MODです。双方でv1.0/R48と互換性のあるページ・MODリソースを使用してください。
+MOD対応で起動 → 招待状画面左上「联机接待」。Steam：ホスト「创建 Steam 房间」→「邀请 Steam 好友」。ゲストはゲーム起動中に招待を承諾し「加入 Steam」を押します。部屋番号の直接入力も可能です。UDP：ホスト「创建接待室」、ゲストは接続可能なIP:ポートを入力。既定はUDP 27015で、外部接続にはトンネル・仮想LANなどの設定が必要です。
+通常接待、装備・司書担当、手札・速度ダイス・マッチ・戦闘状態、E.G.O共有使用を調整します。通常の幻想体初挑戦・再戦は専用準備画面を使用し、感情・幻想体ページはホストが選びます。
+2人専用。戦闘途中の参加・再接続、ホスト移譲、セーブ・ストーリー全体の共有、階の完全開放戦とケテル最終戦は未対応です。
+テスター募集中。712項目の自動チェックは通過しましたが、PC2台・Steamアカウント2つでの実通信検証は未完了です。不具合や同期ずれが残る可能性があります。Steam接続に失敗したらUDPをお試しください。双方の版・役割・接待/階・再現手順・画像・双方のログを報告し、個人情報は事前に確認してください。説明の翻訳であり、MOD画面はおもに中国語です。
+
+Unofficial fan mod; not affiliated with Project Moon.
+非官方玩家模组 / 비공식 팬 모드 / 非公式ファンMOD。
+</Description>
     <Tag>Invitation</Tag>
     <PreviewImage></PreviewImage>
   </Workshop>

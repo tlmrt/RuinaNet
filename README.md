@@ -1,5 +1,7 @@
 # RuinaNet
 
+中文 | [English](README.en.md) | [한국어](README.ko.md) | [日本語](README.ja.md)
+
 《废墟图书馆》（Library of Ruina）双人联机实验模组。
 
 **纯 AI 制作，含人量为零。**
